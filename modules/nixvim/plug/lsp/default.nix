@@ -15,6 +15,9 @@
         html = {
           enable = true;
         };
+        clangd = {
+          enable = true;
+        };
         lua_ls = {
           enable = true;
         };
