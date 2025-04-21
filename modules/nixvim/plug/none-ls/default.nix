@@ -16,6 +16,9 @@
         yamllint.enable = true;
       };
       formatting = {
+        clang_format = {
+          enable = true;
+        };
         nixfmt = {
           enable = true;
           package = pkgs.nixfmt-rfc-style;

@@ -345,7 +345,7 @@
       # <C-c> instead of pressing esc just because
       {
         mode = "i";
-        key = "<C-c>";
+        key = "<jk>";
         action = "<Esc>";
       }
       {
