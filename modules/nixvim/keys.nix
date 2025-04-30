@@ -347,6 +347,9 @@
         mode = "i";
         key = "<jk>";
         action = "<Esc>";
+        options = {
+          desc = "esc to normal mode";
+        };
       }
       {
         mode = "n";
