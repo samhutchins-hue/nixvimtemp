@@ -24,7 +24,7 @@
         ] ++ lib.optionals (!config.plugins.lsp.servers.statix.enable) [ "statix" ];
         python = [ "pylint" ];
         sh = [ "shellcheck" ];
-        terraform = [ "tflint" ];
+        tflint = [ "tflint" ];
         yaml = [ "yamllint" ];
       };
 
@@ -62,7 +62,7 @@
         statix = {
           cmd = lib.getExe pkgs.statix;
         };
-        terraform = {
+        tflint = {
           cmd = lib.getExe pkgs.tflint;
         };
         yamllint = {
