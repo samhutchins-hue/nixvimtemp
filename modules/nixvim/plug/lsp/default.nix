@@ -12,6 +12,14 @@
       enable = true;
       inlayHints = true;
       servers = {
+        ts_ls = {
+          enable = true;
+        };
+        rust_analyzer = {
+          enable = true;
+          installCargo = true;
+          installRustc = true;
+        };
         html = {
           enable = true;
         };
