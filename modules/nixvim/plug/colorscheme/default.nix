@@ -18,5 +18,9 @@ in
         telescope_borders = false;
       };
     };
+
+    catppuccin = {
+      enable = true;
+    };
   };
 }
