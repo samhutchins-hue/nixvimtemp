@@ -1,0 +1,5 @@
+{
+  plugins.catppuccin = {
+    enable = true;
+  };
+}
