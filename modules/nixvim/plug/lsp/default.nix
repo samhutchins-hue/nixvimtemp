@@ -15,6 +15,10 @@
         ts_ls = {
           enable = true;
         };
+        hls = {
+          enable = true;
+	  installGhc = true;
+        };
         rust_analyzer = {
           enable = true;
           installCargo = true;
