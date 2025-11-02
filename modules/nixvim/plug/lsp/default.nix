@@ -17,7 +17,6 @@
         };
         hls = {
           enable = true;
-	  installGhc = true;
         };
         rust_analyzer = {
           enable = true;
