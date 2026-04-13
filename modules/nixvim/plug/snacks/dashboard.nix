@@ -40,7 +40,7 @@ in
   plugins.snacks = {
     settings = {
       dashboard = {
-        enabled = true;
+        enabled = false;
         preset = {
           keys = [
             {
