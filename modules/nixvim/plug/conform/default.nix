@@ -14,7 +14,7 @@
 
     settings = {
       format_on_save = {
-        lspFallback = true;
+        lspFallback = false;
         timeoutMs = 500;
       };
       notify_on_error = true;
